@@ -105,5 +105,7 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/deplware/scripts' },
     ]
-  }
+  },
+  // Output to dist2.
+  outDir: './../docs',
 })
